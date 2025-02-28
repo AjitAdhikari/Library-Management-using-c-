@@ -58,7 +58,7 @@ public:
             std::cerr << "Error: Book is already issued.\n";
         } else {
             book->isIssued = true;
-            std::cout << "Book issued: " << book->title << "\n";
+            std::cout << "Book issued successfully: " << book->title << "\n";
         }
     }
 
