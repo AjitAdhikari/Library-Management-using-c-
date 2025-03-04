@@ -126,7 +126,7 @@ public:
     void logout() {
         if (loggedIn) {
             loggedIn = false;
-            std::cout << "Logout successful. Goodbye!\n";
+            std::cout << "Logout successfully. Goodbye!\n";
             std::cout<<"Thank you for choosing us ";
         } else {
             std::cerr << "Error: No user is currently logged in.\n";
@@ -146,7 +146,7 @@ int main() {
 
     // User login
     do {
-        std::cout<<"Develop by Ajit Adhikari\n ";
+        std::cout<<"Developed by Ajit Adhikari\n ";
         std::cout<<"Username and password will written on line 110 and 111 thank you \n ";
         std::cout << "Enter username: ";
         std::cin >> username;
